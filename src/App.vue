@@ -1,3 +1,6 @@
 <template>
-  <h1 class="text-3xl text-red-800 font-bold">مليون سلامة عليك يازلفو </h1>
+<NavBar/>
 </template>
+<script setup>
+import NavBar from './components/NavBar.vue';
+</script>
