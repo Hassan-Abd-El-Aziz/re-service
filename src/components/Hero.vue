@@ -5,7 +5,7 @@
         <div class="flex-1 lg:ml-28 w-full max-w-xl 
         space-y-6 relative z-20">
             <h2 class="text-4xl sm:text-5xl text-gray-900 
-            text-center lg:text-left" data-aos="fade-right">
+            text-center lg:text-left mt-8 lg:mt-0" data-aos="fade-right">
                 professionals
                 <span class="font-bold text-black block lg:inline"> Service</span>
             </h2>
@@ -30,11 +30,32 @@ items-center lg:items-start">
                     <p class=" ml-4 text-gray-500 text-sm mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit.</p>
                 </div>
+                <div class="bg-white w-72 rounded-3xl p-6 border border-gray-100 shadow-xl lg:shadow-2xl
+transition relative z-30" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="ml-4 w-10 h-10 flex items-center justify-center 
+rounded-lg bg-yellow-100 mb-4">
+                        <span class="text-yellow-500 text-xl">
+                            <Award class="text-yellow-600 w-6 h-6" />
+                        </span>
+                    </div>
+                    <h3 class="ml-4 text-lg font-semibold text-gray-800">Service Subtitle Two</h3>
+                    <p class=" ml-4 text-gray-500 text-sm mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex-1 mt-12 lg:mt-0 lg:ml-12 relative w-full flex
+        justify-center" data-aos="fade-left" data-aos-delay="400">
+            <div class="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 
+lg:w-[600px] lg:h-[500px] overflow-hidden border-8 border-white shadow-lg lg:shadow-lg
+rounded-[60%_40%_30%_60%/60%_30%_70%_30%] relative z-10 ">
+                <img src="../assets/3.png" alt="hero image" class="w-full l object-cover">
             </div>
         </div>
     </section>
 </template>
 
 <script setup>
-import { Circle, Heart } from 'lucide-vue-next';
+import { Circle, Heart, Award } from 'lucide-vue-next';
 </script>
